@@ -1,0 +1,51 @@
+.app {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.title {
+  margin: 20px 0;
+  color: #333;
+}
+
+.input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #007BFF;
+  color: #fff;
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.refresh {
+  margin-top: 20px;
+}
+
+.transform-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 10px auto;
+}
+
+#output {
+  margin-top: 20px;
+}
