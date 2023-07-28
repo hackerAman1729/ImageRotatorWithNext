@@ -30,7 +30,7 @@ const Container = styled.div`
     background: linear-gradient(45deg, rgba(106,213,230,1) 0%, rgba(172,158,214,1) 100%);
     background-size: 200% 200%;
     z-index: -1;
-    animation: ${waveAnimation} 15s linear infinite;
+    animation: ${waveAnimation} 20s linear infinite;
     transform: rotate(0deg);
   }
 `;
